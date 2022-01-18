@@ -311,6 +311,15 @@ th .link-img img {
 #section-04 .r-txtbox p {
     margin-bottom: 15px;
 }
+
+
+.r-txtbox .img-box {
+    margin: 20px 0;
+    text-align: center;
+}
+.r-txtbox .img-box img {
+    width: 95%;
+}
 #section-04 td.r-img {
     padding: 20px 0;
 }
