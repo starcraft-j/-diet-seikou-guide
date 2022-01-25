@@ -387,7 +387,18 @@
 
 
     <?php wp_reset_postdata();
-                
+
+              if($_GET['p'] == 'test') {
+                  $args = array(
+                      'posts_per_page' => '-1',
+                      'tag_id' => 22,
+                      'orderby' => 'meta_value_num',
+                      'meta_key' => 'test-rank',
+                      'orderby' => 'meta_value_num',
+                      'order' => 'asc',
+                      'post_status' => 'any',
+                  );
+              } else {
                 $args = array(
                     'posts_per_page' => '-1',
                     'category_name' => 'burning',
@@ -396,7 +407,7 @@
                     'orderby' => 'meta_value_num',
 					          'order' => 'asc',
                 );
-               
+              }
 
                 $the_query = new WP_Query( $args );
                 $i = 1;
