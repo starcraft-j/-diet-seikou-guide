@@ -26,7 +26,7 @@
       <footer>
 
            Copyright (C) 2019 <br>ダイエット成功ガイド All Rights Reserved.
-
+       </footer>
           <script type="text/javascript">
             window._pt_lt = new Date().getTime();
             window._pt_sp_2 = [];
@@ -57,21 +57,21 @@
     <script>
       var itemHeights = []; //
       $(function(){
-        $(".grad-item").each(function(){ //ターゲット(縮めるアイテム)
-          var thisHeight = $(this).height(); //ターゲットの高さを取得
-          itemHeights.push(thisHeight); //それぞれの高さを配列に入れる
-          $(this).addClass("is-hide"); //CSSで指定した高さにする
-          returnHeight = $(this).height(); //is-hideの高さを取得
+        $(".grad-item").each(function(){ 
+          var thisHeight = $(this).height(); 
+          itemHeights.push(thisHeight); 
+          $(this).addClass("is-hide"); 
+          returnHeight = $(this).height(); 
         });
       });
 
       $(".grad-trigger").click(function(){
         if(!$(this).hasClass("is-show")) {
-          var index = $(this).index(".grad-trigger"); //トリガーが何個目か
-          var addHeight = itemHeights[index]; //個数に対応する高さを取得
-          $(this).addClass("is-show").next().animate({height: addHeight},200).removeClass("is-hide"); //高さを元に戻す
+          var index = $(this).index(".grad-trigger"); 
+          var addHeight = itemHeights[index]; 
+          $(this).addClass("is-show").next().animate({height: addHeight},200).removeClass("is-hide"); 
         } else {
-          $(this).removeClass("is-show").next().animate({height: returnHeight},200).addClass("is-hide"); //高さを制限する
+          $(this).removeClass("is-show").next().animate({height: returnHeight},200).addClass("is-hide"); 
         }
       });
     </script>
@@ -118,7 +118,7 @@ $(function() {
 });
 </script>
 
-            </footer>
+<script src="new.js"></script>
 
 
 </body>

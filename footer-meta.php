@@ -97,6 +97,7 @@ $(function() {
 });
 </script>
 
+<script src="new.js"></script>
 
 </body>
 
