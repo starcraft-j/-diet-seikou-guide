@@ -109,7 +109,7 @@
                         <p>
                             <span class="lbg">
                                 <a target="_blank"
-                                    href="./links/double.php<?php echo "?" . $query2; ?>">空腹時血糖値が気になる方のタブレット</a>
+                                    href="./links/double.php<?php echo "?" . $query2; ?>">尿酸と脂肪の<br>ダブルバスター</a>
                             </span>
                         </p>
                     </td>
@@ -117,7 +117,7 @@
                         <p>
                             <span class="lbg">
                                 <a target="_blank"
-                                    href="./links/kiku.php<?php echo "?" . $query2; ?>">食後の血糖値が気になる方のタブレット</a>
+                                    href="./links/kiku.php<?php echo "?" . $query2; ?>">尿酸キクＡ錠</a>
                             </span>
                         </p>
                     </td>
@@ -125,7 +125,7 @@
                         <p>
                             <span class="lbg">
                                 <a target="_blank"
-                                    href="./links/tablet-nyo.php<?php echo "?" . $query2; ?>">オサエルEX</a>
+                                    href="./links/tablet-nyo.php<?php echo "?" . $query2; ?>">尿酸値が高めの方の<br>タブレット</a>
                             </span>
                         </p>
                     </td>
@@ -169,7 +169,7 @@
 
                     <td>
                         <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                        <p>アンセリン</p>
+                        <p>アンセリン、ブラックジンジャー由来ポリメトキシフラボン</p>
                     </td>
                     
                     <td>
@@ -240,7 +240,7 @@
                     
                     <td style="width:27%">
                         <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>2,970円<br>（50％OFF）</p>
+                        <p>1,980円<br>（67％OFF）<br><span class="red">当サイト経由の申込で特別クーポン-1,000円引き！</span></p>
                     </td>
 
                     <td style="width:27%">
