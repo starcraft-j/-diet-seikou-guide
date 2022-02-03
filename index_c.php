@@ -187,7 +187,7 @@
                     <span class="lbg">
                       <?php if($_GET['p'] == 'test') : ?>
                       <a target="_blank"
-                        href="./links/onaka.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">おなかの脂肪が気になる方のためのタブレット<small>（粒タイプ）test</small></a>
+                        href="./links/onaka.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">おなかの脂肪が気になる方のためのタブレット<small>（粒タイプ）</small></a>
                       <?php else : ?>
                       <a href="./links/onaka.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">おなかの脂肪が気になる方のためのタブレット<small>（粒タイプ）</small></a>
                       <?php endif; ?>
@@ -438,11 +438,7 @@
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <?php if($_GET['p'] == 'test') : ?>
-            <p>初回1,058円</p>
-            <?php else : ?>
             <p>初回980円</p>
-            <?php endif; ?>
           </td>
 
           <td>
