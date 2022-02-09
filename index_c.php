@@ -5,7 +5,11 @@
 
   <header>
     <div class="img-wrap">
+      <?php if($_GET['p'] == 'test') : ?>
+      <img src="./img/fv/seikou_topBn_pc-c-test.png" />
+      <?php else : ?>
       <img src="./img/fv/seikou_topBn_pc-c.png" />
+      <?php endif; ?>
     </div>
   </header>
 
@@ -28,7 +32,12 @@
 
       <p>当サイトでは数多くの脂肪サプリの成分や利用者の口コミを徹底調査！</p><br>
 
-      <p><span class="bold bg-y">【失敗しないサプリの正しい選び方】</span>と<br>
+      <p>
+        <?php if($_GET['p'] == "test") : ?> 
+        <span class="bold bg-y">【脂肪対策サプリの正しい選び方】</span>と<br>
+        <?php else : ?>
+        <span class="bold bg-y">【失敗しないサプリの正しい選び方】</span>と<br>
+        <?php endif; ?>
         <span class="bold bg-y">【厳選！おすすめの脂肪対策サプリ】</span>をご紹介します。
       </p><br>
 
@@ -389,37 +398,37 @@
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>2,808円（定期）</p>
+            <p>2,808円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>3,402円（定期）</p>
+            <p>3,402円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>5,364円</p>
+            <p>5,364円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>3,808円（定期）</p>
+            <p>3,808円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>4,441円（定期）</p>
+            <p>4,441円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>3,990円（定期）</p>
+            <p>3,990円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>4,082円（定期）</p>
+            <p>4,082円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
           </td>
 
         </tr>
@@ -433,37 +442,37 @@
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回980円</p>
+            <p>初回980円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回980円</p>
+            <p>初回980円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回540円</p>
+            <p>初回540円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回980円</p>
+            <p>初回980円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>14日分(初回限定・お一人様1回1個限り) 540円</p>
+            <p>14日分(初回限定・お一人様1回1個限り) 540円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回限定500円</p>
+            <p>初回限定500円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>初回限定1,980円</p>
+            <p>初回限定1,980円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
           </td>
 
         </tr>
@@ -515,7 +524,7 @@
           </td>
 
           <td>
-            <p>・体重・脂肪の増加が気になる人<br>・ウエスト周りを減らしたい人<br>・機能性表示食品を試したい人</p>
+            <p>・体重・脂肪の増加が気になる人<br><?php if($_GET['p'] == 'test') : ?>・ウエスト周りが気になる人<?php else : ?>・ウエスト周りを減らしたい人<?php endif; ?><br>・機能性表示食品を試したい人</p>
             <small>※BMI25以上30未満の方が対象です</small>
           </td>
 
@@ -608,7 +617,13 @@
   <section id="section-03">
 
 
-    <h1 class="midashi">脂肪対策サプリ選びで失敗しないための５つのポイント</h1>
+    <h1 class="midashi">
+    <?php if($_GET['p']=='test') : ?>
+    脂肪対策サプリ選びの５つのポイント
+    <?php else : ?>
+    脂肪対策サプリ選びで失敗しないための５つのポイント
+    <?php endif; ?>
+    </h1>
 
     <div class="txt-wrap">
 
@@ -656,7 +671,11 @@
 
 
   <div class="img-wrap">
+    <?php if($_GET['p'] == 'test') : ?>
+    <img id="rank_bn" src="./img/ranking/ranking-banner-pc-c-test.png" />
+    <?php else : ?>
     <img id="rank_bn" src="./img/ranking/ranking-banner-pc-c.png" />
+    <?php endif; ?>
   </div>
 
 
@@ -668,7 +687,7 @@
 
     <ul class="tabs">
       <li rel="tab1" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-a.png'">総合<br>人気ランキング</li>
-      <li class="active" rel="tab3" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-c.png'">脂肪対策<br>サプリ</li>
+      <li class="active" rel="tab3" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-c-test.png'">脂肪対策<br>サプリ</li>
       <li rel="tab4" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-d.png'">糖質ケア<br>サプリ</li>
       <li rel="tab8" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-h.png'">防風通聖散</li>
       <li rel="tab2" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-b.png'">体内フローラ<br>サプリ</li>
