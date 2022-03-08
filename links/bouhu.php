@@ -11,9 +11,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <script type="text/javascript" src="http://img.accesstrade.net/m/ilisting/atlex.min.js"></script>
-<!-- <meta http-equiv="refresh" content="1; URL=https://jf-d.jp/lp/shokansen_ig2/?argument=acrYmmnJ&dmai=wbo_DGAF_0019
-"> -->
-<meta http-equiv="refresh" content="1; URL=https://jf-d.jp/lp/shokansen_ig_y_coupon/?argument=acrYmmnJ&dmai=wbo_DGAF_0022">
+
+<!-- <meta http-equiv="refresh" content="1; URL=https://jf-d.jp/lp/shokansen_ig_y_coupon/?argument=acrYmmnJ&dmai=wbo_DGAF_0022"> -->
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,6 +38,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <img height="1" width="1" style="border-style:none;" alt="" src="//b91.yahoo.co.jp/pagead/conversion/1000134770/?value=0&label=OnxOCPn2qVYQpoPyygM&guid=ON&script=0&disvt=true"/>
     </div>
 </noscript>
+<style>
+  .message-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+</style>
 </head>
 <body>
 
@@ -67,6 +74,8 @@ var yahoo_retargeting_page_type = '';
 var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantity: ''}];
 /* ]]> */
 </script>
-<script type="text/javascript" language="javascript" src="https://b92.yahoo.co.jp/js/s_retargeting.js"></script>
+<div class="message-box">
+  <p>現在一時的にお申込みの受付を停止しております。<br>再開までしばらくお待ちください。</p>
+</div>
 </body>
 </html>
