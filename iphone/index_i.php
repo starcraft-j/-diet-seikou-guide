@@ -17,7 +17,7 @@
 
       <h1 class="right">とお悩みの方へ</span></h1><br>
 
-      <h1>本当におすすめ！<br>厳選！血糖値ケアサプリ4選！</h1>
+      <h1>本当におすすめ！<br>厳選！血糖値ケアサプリ3選！</h1>
 
 
     </div>
@@ -47,13 +47,12 @@
     <!--比較表START-->
     <div id="overBox">
 
-      <table class="table-01 table-over table-rank4" cellspacing="1">
+      <table class="table-01" cellspacing="1">
 
         <colgroup width="50px">
           <colgroup width="20%">
             <colgroup width="20%">
               <colgroup width="20%">
-                <colgroup width="20%">
 
                     <tbody>
 
@@ -66,9 +65,6 @@
                       <p class="center">
                         <span class="red bg-y" style="font-size: 1.2em">人気No.1！</span>
                       </p>
-                    </th>
-
-                    <th class="crown">
                     </th>
 
                     <th class="crown">
@@ -97,14 +93,6 @@
 
                   <th>
                     <p>
-                      <a class="link-img" target="_blank" href="./links/tablet-s.php<?php echo "?" . $query2; ?>">
-                        <img src="./img/tablet-s.jpg" alt="" />
-                      </a>
-                    </p>
-                  </th>
-
-                  <th>
-                    <p>
                       <a class="link-img" target="_blank" href="./links/osaeru.php<?php echo "?" . $query2; ?>">
                         <img src="./img/osaeru.jpg" alt="" />
                       </a>
@@ -126,13 +114,6 @@
                   <p>
                     <span class="lbg">
                       <a target="_blank" href="./links/tablet-k.php<?php echo "?" . $query2; ?>">空腹時血糖値が気になる方のタブレット</a>
-                    </span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span class="lbg">
-                      <a target="_blank" href="./links/tablet-s.php<?php echo "?" . $query2; ?>">食後の血糖値が気になる方のタブレット</a>
                     </span>
                   </p>
                 </td>
@@ -170,13 +151,6 @@
                 <p>
                   <img src="./img/review_45.gif" alt="" />
                 </p>
-                <p class="f-13">4.6/5.0</p>
-              </td>
-
-              <td>
-                <p>
-                  <img src="./img/review_45.gif" alt="" />
-                </p>
                 <p class="f-13">4.5/5.0</p>
               </td>
 
@@ -194,11 +168,6 @@
 
             <td class="table-title width">
               <h6>配合成分</h6>
-            </td>
-
-            <td>
-              <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-              <p>サラシノール</p>
             </td>
 
             <td>
@@ -238,11 +207,6 @@
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
             <p>機能性表示食品</p>
           </td>
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>機能性表示食品</p>
-          </td>
         </tr>
 
 
@@ -250,10 +214,6 @@
 
           <td class="table-title width">
             <h6>即効性</h6>
-          </td>
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
           </td>
 
           <td>
@@ -284,11 +244,6 @@
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>3,888円（税込）</p>
-          </td>
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_02.png" alt="" />
             <p>3,980円（定期）</p>
           </td>
 
@@ -304,11 +259,6 @@
 
           <td class="table-title">
             <h6>特別オファー</h6>
-          </td>
-
-          <td style="width:27%">
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回980円（税込）</p>
           </td>
 
           <td style="width:27%">
@@ -345,10 +295,6 @@
           <td>
             <p>なし</p>
           </td>
-
-          <td>
-            <p>なし</p>
-          </td>
         </tr>
 
 
@@ -361,12 +307,6 @@
           <td>
             <p class="left ml-5">
               ・食後の血糖値が気になる人<br>・糖の吸収を抑えたい人
-            </p>
-          </td>
-
-          <td>
-            <p class="left ml-5">
-              ・健康診断で血糖値が高めの人<br>・今の血糖値対策に満足していない人
             </p>
           </td>
 
@@ -393,12 +333,6 @@
 
           <td>
             <a target="_blank" href="./links/tablet-k.php<?php echo "?" . $query2; ?>">
-              <img src="./img/n_img/btn_site_go_s.png" width="100%">
-            </a>
-          </td>
-
-          <td>
-            <a target="_blank" href="./links/tablet-s.php<?php echo "?" . $query2; ?>">
               <img src="./img/n_img/btn_site_go_s.png" width="100%">
             </a>
           </td>
@@ -486,7 +420,7 @@
     <div class="txt-wrap">
 
       <p>当サイトでは、上記ポイントを元にサプリを徹底的に調査しました！</p>
-      <p>本当におすすめの血糖値ケアサプリ6選をご紹介します！！</p>
+      <p>本当におすすめの血糖値ケアサプリ3選をご紹介します！！</p>
 
       <div class="img-wrap arrow">
         <img src="./img/n_img/new_arrow.png" />

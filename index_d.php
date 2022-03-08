@@ -18,7 +18,7 @@
 
       <h1 class="right">とお悩みの方へ</span></h1>
 
-      <h1 class="center">本当におすすめ！<br>厳選！糖質ケアサプリ6選！</span></h1>
+      <h1 class="center">本当におすすめ！<br>厳選！糖質ケアサプリ5選！</span></h1>
 
     </div>
     <!--.title-wrap end-->
@@ -48,7 +48,7 @@
 
     <div id="overBox">
 
-      <table class="table-01 table-over table-rank6" cellspacing="1">
+      <table class="table-01 table-over table-rank5" cellspacing="1">
 
         <colgroup width="130">
           <colgroup width="40%">
@@ -56,7 +56,6 @@
               <colgroup width="40%">
                 <colgroup width="40%">
                   <colgroup width="40%">
-                    <colgroup width="40%">
 
                     <tbody>
 
@@ -69,9 +68,6 @@
                       <p class="center">
                         <span class="red bg-y" style="font-size: 1.2em">人気No.1！</span>
                       </p>
-                    </th>
-
-                    <th class="crown">
                     </th>
 
                     <th class="crown">
@@ -101,16 +97,6 @@
                       <a class="link-img" target="_blank"
                         href="./links/meta.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
                         <img src="./img/meta.jpg" alt="" />
-                      </a>
-                    </p>
-
-                  </th>
-
-                  <th style="vertical-align: top">
-                    <p>
-                      <a class="link-img" target="_blank"
-                        href="./links/tablet-s.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
-                        <img src="./img/tablet-s.jpg" alt="" />
                       </a>
                     </p>
 
@@ -170,14 +156,6 @@
                   <p>
                     <span class="lbg">
                       <a target="_blank"
-                        href="./links/tablet-s.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">食後の血糖値が気になる方のタブレット</a>
-                    </span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span class="lbg">
-                      <a target="_blank"
                         href="./links/tablet-k.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">空腹時血糖値が気になる方のタブレット</a>
                     </span>
                   </p>
@@ -224,13 +202,6 @@
                 <p>
                   <img src="./img/review_45.gif" alt="" />
                 </p>
-                <p class="f-13">4.6/5.0</p>
-              </td>
-
-              <td>
-                <p>
-                  <img src="./img/review_45.gif" alt="" />
-                </p>
                 <p class="f-13">4.5/5.0</p>
               </td>
 
@@ -261,11 +232,6 @@
           <tr>
             <td class="table-title width">
               <h6>配合成分</h6>
-            </td>
-
-            <td>
-              <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-              <p>サラシノール</p>
             </td>
 
             <td>
@@ -324,11 +290,6 @@
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
             <p>機能性表示食品</p>
           </td>
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>機能性表示食品</p>
-          </td>
         </tr>
 
 
@@ -336,10 +297,6 @@
 
           <td class="table-title width">
             <h6>即効性</h6>
-          </td>
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
           </td>
 
           <td>
@@ -377,11 +334,6 @@
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>3,888円（税込）</p>
-          </td>
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_02.png" alt="" />
             <p>4,374円（税込）</p>
           </td>
 
@@ -411,11 +363,6 @@
           <td style="width:27%">
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
             <p>初回540円</p>
-          </td>
-
-          <td style="width:27%">
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回980円（税込）</p>
           </td>
 
           <td style="width:27%">
@@ -463,10 +410,6 @@
           <td>
             <p>なし</p>
           </td>
-
-          <td>
-            <p>なし</p>
-          </td>
         </tr>
 
         <tr>
@@ -479,12 +422,6 @@
           <td>
             <p class="left ml-5">
               ・サラシノールが糖の吸収を抑える<br>・サラシノールの継続摂取により腸内環境を整える<sup>（※1）</sup><br>・継続摂取により高めのBMIを改善する<sup>（※2）</sup>
-            </p>
-          </td>
-
-          <td>
-            <p class="left ml-5">
-              ・健康診断で血糖値が高めの人<br>・今の血糖値対策に満足していない人
             </p>
           </td>
 
@@ -521,12 +458,6 @@
 
           <td>
             <a target="_blank" href="./links/meta.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
-              <img src="./img/n_img/btn_site_go_s.png" width="100%">
-            </a>
-          </td>
-
-          <td>
-            <a target="_blank" href="./links/tablet-s.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
               <img src="./img/n_img/btn_site_go_s.png" width="100%">
             </a>
           </td>
