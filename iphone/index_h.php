@@ -31,7 +31,6 @@
         </p><br>
 
         <p>「本気で防風通聖散で肥満症・むくみ・便秘を解消したい！」とお考えの方は是非参考にしてみてください。</p><br>
-        　　　　　　　　　　　　
     </div>
     <!--.txt-wrap end-->
 
@@ -116,6 +115,17 @@
     }
     </style>
     <section id="special">
+
+        <div class="last-item item1">
+            <p><span class="bold">生漢煎（しょうかんせん）</span> … <span
+                    class="bold red bg-y">お腹の脂肪を分解・燃焼・排出促進！</span>効能効果が認められた<span class="red bold">満量処方の漢方薬！</span></p>
+            <p class="right">
+                <a target="_blank" href="./links/bouhu.php<?php echo "?" . $query2; ?>">→ 生漢煎（しょうかんせん）を<br />
+                    お得に買える公式サイト
+                </a>
+            </p>
+        </div>
+
         <div class="last-item item1">
             <p><span class="bold">テイシ防風通聖散</span> … <span class="bold red">おなかに皮下脂肪が多く、便秘がちな方</span>の<span class="bold red bg-y">肥満症に効く漢方薬！</span></p>
             <p class="right">
@@ -134,16 +144,7 @@
                 </a>
             </p>
         </div>
-
-        <div class="last-item item1">
-            <p><span class="bold">生漢煎（しょうかんせん）</span> … <span
-                    class="bold red bg-y">お腹の脂肪を分解・燃焼・排出促進！</span>効能効果が認められた<span class="red bold">満量処方の漢方薬！</span></p>
-            <p class="right">
-                <a target="_blank" href="./links/bouhu.php<?php echo "?" . $query2; ?>">→ 生漢煎（しょうかんせん）を<br />
-                    お得に買える公式サイト
-                </a>
-            </p>
-        </div>
+        
     </section>
 
 

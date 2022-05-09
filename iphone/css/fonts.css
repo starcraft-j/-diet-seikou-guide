@@ -254,7 +254,7 @@ sup {
 /* Animation  *********************************************************************/
 .tenmetsu {
     animation: animate 0.5s infinite forwards alternate;
-    padding-left: 180px;
+
 }
 @keyframes animate {
     0% {
