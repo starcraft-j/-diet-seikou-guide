@@ -30,6 +30,7 @@ print '<?xml version="1.0" encoding="UTF-8"?>'; ?>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <title>ダイエット成功ガイド</title>
+    <meta name="referrer" content="no-referrer-when-downgrade"/>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
 
